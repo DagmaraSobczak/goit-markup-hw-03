@@ -32,6 +32,7 @@ text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 border: 0;
+margin-top: 30px;
 } 
 
 .button:hover {
@@ -158,9 +159,9 @@ color: #757575;
 }
 
 .container {
-  max-width: 1200px;
+ width: 1200px;
   padding: 0 15px;
-  width: 100%;
+
 
 }
 
@@ -183,6 +184,8 @@ color: #757575;
  justify-content: space-around;
  width: 254px;
  align-items: center;
+ margin-right: 93px;
+ 
  
 
 }
@@ -212,4 +215,16 @@ p
 ul
 li{
   margin: 0;
+}
+
+.header{
+width: 1600px;
+height: 600px;
+background: #2F303A;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+align-items: center;
+
 }
