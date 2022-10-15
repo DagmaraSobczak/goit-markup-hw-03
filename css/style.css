@@ -60,7 +60,7 @@ letter-spacing: 0.03em;
 text-decoration: none ;
 }
 .studio{
-    color: #000000;
+    color: #FFFFFF;
     text-decoration: none; 
 }
 
@@ -84,10 +84,18 @@ text-decoration: none ;
     color: #757575;
     text-decoration: none;
     font-weight: 400;
-    line-height: 1.7
+    line-height: 1.7;
+   
 }
 .address{
-color: #FFFFFF;
+color: #FFFFFF; 
+padding-top: 20px;
+display: flex;
+font-weight: 400;
+flex-direction: column;
+flex-basis: calc((100% - 18px) / 3);
+align-content: space-between;
+
 }
 
 
@@ -177,8 +185,7 @@ color: #757575;
    justify-content: space-around;
    align-content: center;
    margin-top: 0;
-   margin-bottom: 0;
-  
+ 
   
 }
 
@@ -222,13 +229,14 @@ ul{
 
 h1,
 h2,
-h3
+h3,
 h4,
 h5,
 h6,
-p 
-ul
-li{
+p, 
+ul,
+li,
+figure{
   margin: 0;
 }
 
@@ -247,11 +255,40 @@ align-items: center;
 }
 
  section ul li {
-   flex-basis: calc((100% - 30px) / 4)
-  
-    } 
+   flex-basis: calc((100% - 90px) / 4)
+      } 
+
     h2{
-      display: flex;
-      justify-content: center;
+display: block;
+text-align: center;}
+
+.nasz-zespół {
+   
+     background-color: rgba(245, 244, 250, 1); 
+     width: 1200px;   
+    flex-basis: calc((100% - 90px) / 4)
     }
-    
+figcaption{
+  display: block;
+text-align: center;}
+
+   
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.footer-wrapper{
+  background: rgba(47, 48, 58, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  
+}
+address ul li{
+  flex-basis: calc((100% - 18px) / 3);
+}
+  
