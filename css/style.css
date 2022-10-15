@@ -87,7 +87,15 @@ text-decoration: none ;
     line-height: 1.7;
    
 }
-.address{
+
+footer ul li:first-child {
+color: #FFFFFF; 
+padding-top: 20px;
+display: flex;
+font-weight: 400;
+  }
+
+/*.address{
 color: #FFFFFF; 
 padding-top: 20px;
 display: flex;
@@ -96,7 +104,7 @@ flex-direction: column;
 flex-basis: calc((100% - 18px) / 3);
 align-content: space-between;
 
-}
+}*/
 
 
 figure figcaption {
@@ -171,9 +179,6 @@ color: #757575;
  max-width: 1200px;
  width: 100%;
   padding: 0 15px;
-
-
-
 }
 
 .section {
@@ -207,9 +212,6 @@ color: #757575;
  width: 254px;
  align-items: center;
  margin-right: 93px;
- 
- 
-
 }
 
 .header-adres{
@@ -249,24 +251,18 @@ flex-direction: column;
 justify-content: center;
 align-content: center;
 align-items: center;
-
-
-
 }
 
- section ul li {
-   flex-basis: calc((100% - 90px) / 4)
-      } 
-
     h2{
-display: block;
 text-align: center;}
 
 .nasz-zespół {
-   
-     background-color: rgba(245, 244, 250, 1); 
-     width: 1200px;   
-    flex-basis: calc((100% - 90px) / 4)
+        background-color: rgba(245, 244, 250, 1); 
+     max-width: 1200px;   
+       display: flex;
+     align-content: center;
+     flex-direction: column;
+     
     }
 figcaption{
   display: block;
@@ -288,7 +284,19 @@ img {
   padding-bottom: 60px;
   
 }
-address ul li{
-  flex-basis: calc((100% - 18px) / 3);
+.footer-ul{
+  display: flex;
+  flex-direction: column;
+gap: 9px;
 }
+
+.czym-się-zajmujemy{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+
   
+  }
+
+
+
