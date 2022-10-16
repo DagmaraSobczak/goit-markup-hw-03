@@ -59,10 +59,15 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 text-decoration: none ;
 }
-.studio{
+.studio-footer{
     color: #FFFFFF;
     text-decoration: none; 
 }
+.studio-header{
+    color: #000000;
+    text-decoration: none; 
+}
+
 
 .menu {
     font-size: 14px;
@@ -298,5 +303,11 @@ gap: 9px;
   
   }
 
-
+.menu-portfolio{
+  display: flex;
+  gap:8px;
+  max-width: 572px;
+  justify-content: center;
+  flex-direction: row;
+}
 
