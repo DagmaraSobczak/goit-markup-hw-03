@@ -321,3 +321,22 @@ gap: 9px;
 background-color: rgba(245, 244, 250, 1); 
 }
 
+.menu-portfolio{
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+gap: 8px;
+margin-bottom: 50px;
+}
+
+.project{
+  display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+ justify-content: space-between;
+gap: 30px;
+
+}
+.item{
+  flex-basis: calc((100% - 60px) / 3);
+}
