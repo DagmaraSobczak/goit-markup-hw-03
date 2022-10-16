@@ -68,7 +68,6 @@ text-decoration: none ;
     text-decoration: none; 
 }
 
-
 .menu {
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -184,18 +183,14 @@ color: #757575;
  max-width: 1200px;
  width: 100%;
   padding: 0 15px;
+ 
 }
 
 .section {
-  padding: 94px 0;
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 30px;
- width: 1200px ;
-   justify-content: space-around;
-   align-content: center;
-   margin-top: 0;
- 
+  padding: 0 0 94px 0;
+  margin: 0 auto;
+  
+
   
 }
 
@@ -258,15 +253,21 @@ align-content: center;
 align-items: center;
 }
 
-    h2{
-text-align: center;}
+h2{
+text-align: center;
+padding-bottom: 50px;
+display: block;
+padding-top: 94px;
+
+}
 
 .nasz-zespół {
-        background-color: rgba(245, 244, 250, 1); 
-     max-width: 1200px;   
-       display: flex;
-     align-content: center;
-     flex-direction: column;
+  
+   display: flex;
+  justify-content: center;
+  align-content: space-between;
+  gap: 30px;
+
      
     }
 figcaption{
@@ -297,17 +298,22 @@ gap: 9px;
 
 .czym-się-zajmujemy{
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-content: space-between;
+  gap: 30px;
 
-  
   }
 
-.menu-portfolio{
-  display: flex;
-  gap:8px;
-  max-width: 572px;
+.nasze-atuty{
+    display: flex;
   justify-content: center;
-  flex-direction: row;
+  align-content: space-between;
+  gap: 30px;
+   
+  }
+
+.section-nasz-zespół{
+  margin-top:94px;
+background-color: rgba(245, 244, 250, 1); 
 }
 
